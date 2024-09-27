@@ -1,0 +1,84 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Outfit", system-ui;
+font-weight: 400;
+font-size: 16px;
+}
+ @font-face {
+    font-family: "Outfit", system-ui;
+    src: url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+  } 
+.min-vh-100{
+    min-height: 100vh;
+    background-color: #f5d04e;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card{
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 7px 7px 0px black;
+    transition: 0.3s ease;
+    border: solid 1px black;
+}
+.card:hover {
+    transform: translateX(10px); /* A hover effect to move the card up slightly */
+    box-shadow: 0px 0px 0px black;
+  }
+.card-image img{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+.card-contant{
+    margin-top: 20px;
+}
+.w-100{
+    width: 100%;
+}
+.btn{
+    border: 0;
+    padding: 5px;
+    outline: 0;
+}
+.btn-yellow{
+border-radius: 3px;
+background-color: #f5d04e;
+width: 90px;
+}
+.text-dark{
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+h1{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.date{
+    margin-top: 15px;
+}
+.description{
+    margin-top: 10px;
+}
+p{
+    color: hsl(0, 0%, 42%);
+}
+.author{
+margin-top: 10px;
+display: flex;
+align-items: center;
+}
+.author b{
+    margin-left: 10px;
+    font-weight: 700;
+}
